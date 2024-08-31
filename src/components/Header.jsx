@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-scroll';
 
 function Header() {
   const [navBar, setNavbar] = useState(false);
@@ -25,13 +25,23 @@ function Header() {
               </button>
             </div>
             <ul className=" pt-10 md:pt-0 flex md:flex-row flex-col md:bg-transparent gap-14 md:gap-8 lg:gap-10 md:text-white text-black md:items-center justify-between">
-                <Link>
+                <Link smooth={true} duration={500} to="home">
                 <li>Home</li></Link>
-              <li>Hotel</li>
-              <li>Offers & Promotions</li>
+             <Link smooth={true} duration={500} to="hotels">
+             <li>Hotel</li>
+             </Link>
+             <Link smooth={true} duration={500} to="offers">
+             <li>Offers & Promotions</li>
+             </Link>
+              <Link smooth={true} duration={500} to="rewards">
               <li>Rewards Program</li>
-              <li>Our Brands</li>
+              </Link>
+              <Link smooth={true} duration={500} to="about">
+              <li>About</li>
+              </Link>
+              <Link smooth={true} duration={500} to="sustainability">
               <li>Sustainability</li>
+              </Link>
             </ul>
           </div>
         <div className=" flex gap-8 items-center">

@@ -12,12 +12,13 @@ import CarouselSlide from "@/components/CarouselSlide";
 import CouponCard from "@/components/CouponCard";
 import { Link } from "react-router-dom";
 import ContainerHead from "@/components/ContainerHead";
+import { Button } from "@mui/material";
 
 function Home_page() {
   return (
     <div>
       {/* video section */}
-      <div className=" -z-10 relative h-[100vw] sm:h-[80vw] lg:h-full">
+      <div id="home" className=" -z-10 relative h-[100vw] sm:h-[80vw] lg:h-full">
         <video
           className=" h-full w-full object-cover object-center"
           src="https://www.lemontreehotels.com/assets/front/video/lemon-tree-desktop-video-1.mp4"
@@ -39,7 +40,7 @@ function Home_page() {
         </div>
       </div>
       {/* choose destination */}
-      <Container>
+      <Container id="hotels">
         <ContainerHead
           className={" sm:gap-16"}
           head={"Choose Your Destination"}
@@ -112,6 +113,7 @@ function Home_page() {
           </button>
         </ContainerHead>
       </Container>
+
       {/* upcoming hotels */}
       <Container>
         <div className=" flex justify-between gap-10 md:flex-row flex-col">
@@ -223,9 +225,9 @@ function Home_page() {
       </Container>
 
       {/* offers and promotions */}
-      <Container>
+      <Container id="offers">
         <ContainerHead head={"Offers & Promotions"}>
-          <div className=" flex justify-center">
+          <div id="offers" className=" flex justify-center">
             <div className=" grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
               <CouponCard
                 image={
@@ -250,11 +252,18 @@ function Home_page() {
               />
             </div>
           </div>
+          <div className=" w-full flex justify-center">
+       <Link>
+       <Button className=" w-fit bg-gray-800 text-white " sx={{ color:"white", background:"black", textDecoration:"none" , textTransform:"none"}}>
+            View more
+          </Button>
+          </Link>
+          </div>
         </ContainerHead>
       </Container>
 
       {/* What's new  */}
-      <Container>
+      <Container id="about">
         <ContainerHead head={"What's New"}>
           <div className=" shadow-md p-5 rounded-3xl flex w-full flex-col-reverse sm:flex-row sm:gap-8 gap-5">
             <div className=" w-full sm:w-[50rem] flex flex-col gap-4">
@@ -287,7 +296,7 @@ function Home_page() {
       </Container>
 
       {/* Reward Program */}
-      <Container className={"lg:w-full"} mainClassNamee={"px-0 sm:p-0 md:!p-0"}>
+      <Container id="rewards" className={"lg:w-full"} mainClassNamee={"px-0 sm:p-0 md:!p-0"}>
         <ContainerHead head={"Our Rewards Program"}>
           <div className=" relative w-full h-96">
             <img
@@ -323,7 +332,7 @@ function Home_page() {
 
       {/* Substainability */}
 
-      <Container>
+      <Container id="sustainability">
         <ContainerHead head={"Sustainability"}>
           <div className=" w-full h-[50vW]">
             <iframe
