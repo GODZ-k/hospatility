@@ -18,10 +18,10 @@ function Home_page() {
   return (
     <div>
       {/* video section */}
-      <div id="home" className=" -z-10 relative h-[100vw] sm:h-[80vw] lg:h-full">
+      <div id="home" className=" -z-10 relative h-[100vw] sm:h-[80vw] lg:h-[45vw]">
         <video
-          className=" h-full w-full object-cover object-center"
-          src="https://www.lemontreehotels.com/assets/front/video/lemon-tree-desktop-video-1.mp4"
+          className="-z-10 h-full w-full object-cover object-center -z-1"
+          src="https://res.cloudinary.com/dhb7hrvvn/video/upload/v1725083588/lav7_nrcir7.mp4"
           loop
           autoPlay
           muted
@@ -32,7 +32,7 @@ function Home_page() {
               <input
                 type="text"
                 placeholder="Where to Next?"
-                className=" bg-white border border-gray-300 py-1.5 placeholder:text-sm md:placeholder:text-base sm:py-2 px-4 rounded-md w-60 md:w-96"
+                className=" z-10 bg-white border border-gray-300 py-1.5 placeholder:text-sm md:placeholder:text-base sm:py-2 px-4 rounded-md w-60 md:w-96"
               />
               <i className=" absolute top-3 right-3 text-sky-600 fa-solid fa-magnifying-glass"></i>
             </div>
@@ -42,20 +42,34 @@ function Home_page() {
       {/* choose destination */}
       <Container id="hotels">
         <ContainerHead
-          className={" sm:gap-16"}
+          className={" sm:gap-16 "}
           head={"Choose Your Destination"}
         >
           <div className=" flex justify-center ">
-            <div className=" grid grid-cols-2 w-full md:grid-cols-4 gap-4">
+            <div className=" grid grid-cols-2 w-full md:grid-cols-3 gap-4">
               {/* destination card */}
               <DestinationCard
                 image={
-                  "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
+                  "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084571/lavender1_kgi0wu.jpg"
                 }
-                place={"Mumbai"}
-                hotels={5}
+                place={"Goa"}
+                hotels={3}
               />
               <DestinationCard
+                image={
+                  "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084866/muss_iojr6d.jpg"
+                }
+                place={"Mussoorie"}
+                hotels={3}
+              />
+              <DestinationCard
+                image={
+                  "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084345/be3_o0gd1m.jpg"
+                }
+                place={"Haridwar"}
+                hotels={2}
+              />
+              {/* <DestinationCard
                 image={
                   "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
                 }
@@ -89,21 +103,7 @@ function Home_page() {
                 }
                 place={"Mumbai"}
                 hotels={5}
-              />
-              <DestinationCard
-                image={
-                  "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
-                }
-                place={"Mumbai"}
-                hotels={5}
-              />
-              <DestinationCard
-                image={
-                  "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
-                }
-                place={"Mumbai"}
-                hotels={5}
-              />
+              /> */}
             </div>
           </div>
           <button className=" w-full flex justify-center items-center">
@@ -119,12 +119,11 @@ function Home_page() {
         <div className=" flex justify-between gap-10 md:flex-row flex-col">
           <div className=" pt-5 w-full flex flex-col gap-3">
             <div className=" font-semibold sm:text-3xl text-2xl">
-              Upcoming Hotels
+            Be Ready for Our Exciting Transformation!
             </div>
             <div className=" text-gray-600">
-              The renowned hospitality chain is all set to unveil a collection
-              of new hotels, promising unforgettable experiences for
-              travelers...
+            We’re renovating, but you can plan ahead! Book early to enjoy our refreshed 
+            spaces and exclusive reopening offers. Stay tuned for special deals and updates on our grand reveal!
             </div>
             <button className=" w-fit bg-black py-2 px-3 rounded-md text-white">
               Explore
@@ -145,11 +144,25 @@ function Home_page() {
               <SwiperSlide>
                 <SwiperSlide_comp
                   image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
+                    "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084345/b4_z60pz1.jpg"
                   }
                 />
               </SwiperSlide>
               <SwiperSlide>
+                <SwiperSlide_comp
+                  image={
+                    "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725088431/lavup_ijmuwx.jpg"
+                  }
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <SwiperSlide_comp
+                  image={
+                    "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084345/be5_x1mi3y.jpg"
+                  }
+                />
+              </SwiperSlide>
+              {/* <SwiperSlide>
                 <SwiperSlide_comp
                   image={
                     "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
@@ -169,21 +182,7 @@ function Home_page() {
                     "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
                   }
                 />
-              </SwiperSlide>
-              <SwiperSlide>
-                <SwiperSlide_comp
-                  image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
-                  }
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <SwiperSlide_comp
-                  image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
-                  }
-                />
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
           </div>
         </div>
@@ -197,23 +196,23 @@ function Home_page() {
               <CarouselContent>
                 <CarouselSlide
                   image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
+                    "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084345/de2_qw1k0l.jpg"
                   }
-                  name={"Hotel taj , Mumbai"}
+                  name={"Hotel Drive Inn, Mussoorie"}
                   to={"/"}
                 />
                 <CarouselSlide
                   image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
+                    "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084346/lav2_alrj7i.jpg"
                   }
-                  name={"Hotel taj , Mumbai"}
+                  name={"Lavender Villa , Goa"}
                   to={"/"}
                 />
                 <CarouselSlide
                   image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
+                    "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725087998/baris_koyiz6.jpg"
                   }
-                  name={"Hotel taj , Mumbai"}
+                  name={"BARIS Hotel, Mussoorie"}
                   to={"/"}
                 />
               </CarouselContent>
