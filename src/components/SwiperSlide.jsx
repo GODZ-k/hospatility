@@ -13,11 +13,11 @@ function SwiperSlide_comp({image}) {
       <div   className=' absolute top-0 flex justify-center items-end right-0 w-full h-full bg-transparent'>
         <div className={`${isOpen ? 'h-32' : 'h-16 '} bg-[#0000008c] text-sm py-5 text-white w-full  transition-all ease-in-out duration-500 flex flex-col gap-5`}>
           <div>
-            Lemon Tree hotel , Noida
+            {}
           </div>
           <Link>
           <div className=' underline decoration-white'>
-          Read More
+          {/* Read More */}
           </div>
           </Link>
         </div>

@@ -4,113 +4,113 @@ import { Link } from "react-router-dom";
 
 const hotelLocation = [
   {
-    name:"Hotel in Agra"
+    name:"BARIS Hotel in Mussoorie"
   },
   {
-    name:"Hotel in Agra"
+    name:"Hotel in Haridwar"
   },
   {
-    name:"Hotel in Agra"
+    name:"Lavender Villa in Goa"
   },
   {
-    name:"Hotel in Agra"
+    name:"Hotel Drive Inn Mussoorie"
   },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
-  {
-    name:"Hotel in Agra"
-  },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
+  // {
+  //   name:"Hotel in Agra"
+  // },
 ]
 function Footer() {
   const [isOpen , setIsOpen] = useState(false)
@@ -191,7 +191,7 @@ function Footer() {
           </div>
         </div>
         <div className=" text-xs text-center text-gray-400 mt-10">
-          ©2024 by Lemon Tree Hotels Ltd. All Rights Reserved.
+          ©2024 by Gorgeous Hospitality Hotels Ltd. All Rights Reserved.
         </div>
       </Container>
     </div>

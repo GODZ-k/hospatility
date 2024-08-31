@@ -224,7 +224,7 @@ function Home_page() {
       </Container>
 
       {/* offers and promotions */}
-      <Container id="offers">
+      {/* <Container id="offers">
         <ContainerHead head={"Offers & Promotions"}>
           <div id="offers" className=" flex justify-center">
             <div className=" grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
@@ -259,7 +259,7 @@ function Home_page() {
           </Link>
           </div>
         </ContainerHead>
-      </Container>
+      </Container> */}
 
       {/* What's new  */}
       <Container id="about">
@@ -267,15 +267,12 @@ function Home_page() {
           <div className=" shadow-md p-5 rounded-3xl flex w-full flex-col-reverse sm:flex-row sm:gap-8 gap-5">
             <div className=" w-full sm:w-[50rem] flex flex-col gap-4">
               <div className=" text-xl font-semibold">
-                CELEBRATING 77 YEARS OF FREEDOM
+              Tradition Meets Modern Luxury
               </div>
               <div className=" text-[15px] text-gray-600">
-                We are stoked to stay true to “Atithi Devo Bhava” and take this
-                belief a step further by ensuring that your plates are
-                colourful, adventures are liberating and celebrations are
-                wholesome. We are pleased to announce new signings in Arpora,
-                Pathankot and Kota, and a new opening in Jamshedpur. Here's to
-                the freedom of building India, stronger together.
+              Discover the Muss Collection at our hotel, where timeless elegance and modern comfort converge. Enjoy a stay that blends classic charm with contemporary style,
+               offering exceptional service and sophistication.
+                Redefine your travel experience with our unique fusion of tradition and luxury
               </div>
               <Link>
                 <button className=" bg-black py-3 px-4 rounded-lg text-white">
@@ -286,7 +283,7 @@ function Home_page() {
             <div className=" sm:w-[40rem] w-full rounded-2xl overflow-hidden">
               <img
                 className=" w-full h-full object-center object-cover"
-                src="https://www.lemontreehotels.com/assets/front/newimg/lemonade-aug.jpg"
+                src="https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725095849/company_xhtqyg.jpg"
                 alt=""
               />
             </div>
@@ -300,15 +297,15 @@ function Home_page() {
           <div className=" relative w-full h-96">
             <img
               className=" w-full h-full object-bottom object-cover"
-              src="https://www.lemontreehotels.com/assets/front/images/rewards_banner_1.jpg"
+              src="https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725096580/rew_raavio.jpg"
               alt=""
             />
             <div className=" absolute w-full h-full bg-[#00000063] flex items-center justify-center top-0 right-0">
               <div className="w-full sm:w-1/2 justify-start  flex flex-col gap-5 min-h-20 text-white p-3  ">
                 <div className=" sm:text-lg md:text-xl text-base">
-                  Members exclusive rewards and privileges with endless
-                  possibilities, from free stays and upgrades to special offers
-                  and previews, and much more...
+                Exclusive rewards and privileges for members, including complimentary stays, upgrades,
+                 special offers, and previews, with limitless possibilities to enhance your experience and enjoyment.
+                  Enjoy a world of benefits tailored just for you.
                 </div>
                 <div className=" text-3xl sm:text-5xl">Infinity Rewards</div>
                 <div className=" flex gap-4 items-center">
