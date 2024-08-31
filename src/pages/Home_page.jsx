@@ -146,43 +146,25 @@ function Home_page() {
                   image={
                     "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084345/b4_z60pz1.jpg"
                   }
+                  content={'Baris Hotel and Resort'}
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <SwiperSlide_comp
                   image={
-                    "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725088431/lavup_ijmuwx.jpg"
+                    "https://res.cloudinary.com/dlkzk9g9k/image/upload/v1725099509/WhatsApp_Image_2024-08-31_at_10.33.05_AM_hrlyju.jpg"
                   }
+                  content={'Lavender Vill'}
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <SwiperSlide_comp
                   image={
-                    "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084345/be5_x1mi3y.jpg"
+                    "https://res.cloudinary.com/dlkzk9g9k/image/upload/v1725099598/WhatsApp_Image_2024-08-31_at_10.39.12_AM_ma3sjc.jpg"
                   }
+                  content={'Hotel Driven'}
                 />
               </SwiperSlide>
-              {/* <SwiperSlide>
-                <SwiperSlide_comp
-                  image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
-                  }
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <SwiperSlide_comp
-                  image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
-                  }
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <SwiperSlide_comp
-                  image={
-                    "https://www.lemontreehotels.com/assets/front/images/02_Jul_2023_04_20_28Mossoorie.jpg"
-                  }
-                />
-              </SwiperSlide> */}
             </Swiper>
           </div>
         </div>
