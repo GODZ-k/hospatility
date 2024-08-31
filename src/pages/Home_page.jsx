@@ -133,12 +133,27 @@ function Home_page() {
             <Swiper
               modules={[Navigation, Autoplay, Scrollbar]}
               autoplay={{ delay: 2500 }}
-              slidesPerView={3}
+              slidesPerView={2}
               // centeredSlides={true}
-              spaceBetween={20}
+              loop={true}
+              // spaceBetween={10}
               pagination={{
                 type: "fraction",
               }}
+  //             breakpoints={{
+  //   // when window width is >= 320px
+  //   320: {
+  //     slidesPerView: 2,
+  //   },
+  //   // when window width is >= 480px
+  //   480: {
+  //     slidesPerView: 2,
+  //   },
+  //   // when window width is >= 768px
+  //   768: {
+  //     slidesPerView: 2,
+  //   },
+  // }}
               className="mySwiper"
             >
               <SwiperSlide>
