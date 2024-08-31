@@ -18,7 +18,7 @@ function Home_page() {
   return (
     <div>
       {/* video section */}
-      <div id="home" className=" -z-10 relative h-[100vw] sm:h-[80vw] lg:h-[45vw]">
+      <div id="home" className=" relative h-[100vw] sm:h-[80vw] lg:h-[45vw]">
         <video
           className="-z-10 h-full w-full object-cover object-center -z-1"
           src="https://res.cloudinary.com/dhb7hrvvn/video/upload/v1725083588/lav7_nrcir7.mp4"
