@@ -2,7 +2,7 @@ import React from 'react'
 
 function DestinationCard({image , place , hotels}) {
   return (
-    <div className=" shadow-md flex gap-3 items-center rounded-sm overflow-hidden">
+    <div className=" shadow-md flex gap-4 items-center rounded-sm overflow-hidden">
     <div className=" sm:w-20 sm:h-20 w-16 h-16">
       <img
         className=" w-full h-full object-center object-cover"
