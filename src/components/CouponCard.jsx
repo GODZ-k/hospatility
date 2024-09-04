@@ -5,7 +5,7 @@ function CouponCard({ image, offer, to }) {
   return (
     <div className=" shadow-md w-full sm:w-64 sm:h-auto h-64  flex flex-row sm:flex-col rounded-2xl overflow-hidden">
       <div className="w-full h-full sm:h-52">
-        <img
+        <img loading='lazy'
           className=" w-full h-full object-center object-cover"
           src={image}
           alt=""

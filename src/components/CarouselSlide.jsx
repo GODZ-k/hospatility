@@ -7,7 +7,7 @@ function CarouselSlide({image , name , to}) {
     <CarouselItem>
     <div className=''>
      <div className=" relative   rounded-3xl overflow-hidden w-full h-[30vh] md:h-[50vh]">
-       <img className=" w-full h-full object-coverobject-center" src={image} alt="" />
+       <img loading='lazy' className=" w-full h-full object-coverobject-center" src={image} alt="" />
        <div className=" absolute w-full h-full flex items-end justify-center top-0 right-0">
          <div className="w-full bg-[#00000063] flex flex-col gap-2 min-h-20 text-white p-3 text-center ">
            <div className=" text-base sm:text-lg md:text-xl ">

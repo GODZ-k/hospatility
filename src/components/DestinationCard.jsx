@@ -1,10 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function DestinationCard({image , place , hotels}) {
+function DestinationCard({image , place , hotels , to}) {
   return (
+    <Link to={to}>
     <div className=" shadow-md flex gap-4 items-center rounded-sm overflow-hidden">
     <div className=" sm:w-20 sm:h-20 w-16 h-16">
-      <img
+      <img loading='lazy'
         className=" w-full h-full object-center object-cover"
         src={image}
         alt=""
@@ -15,6 +17,7 @@ function DestinationCard({image , place , hotels}) {
       <div className=" text-gray-700 text-sm  ">{hotels} Hotels</div>
     </div>
   </div>
+  </Link>
   )
 }
 

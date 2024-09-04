@@ -8,7 +8,7 @@ function Header() {
     <div className=" z-50 w-full py-2 px-4 sm:px-8 fixed bg-transparent backdrop-blur-md">
       <div className=" flex justify-between gap-8 items-center relative">
         <div className=" w-28 flex justify-center items-center">
-          <img
+          <img loading='lazy'
             className=" h-full w-full object-center object-cover"
             src="logo.png"
             alt=""

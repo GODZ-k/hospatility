@@ -185,6 +185,7 @@ function Home_page() {
                 image={
                   "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084571/lavender1_kgi0wu.jpg"
                 }
+                to="/gurgaon_hotels"
                 place={"Goa"}
                 hotels={3}
               />
@@ -384,7 +385,7 @@ function Home_page() {
               </Link>
             </div>
             <div className=" sm:w-[40rem] w-full rounded-2xl overflow-hidden">
-              <img
+              <img loading='lazy'
                 className=" w-full h-full object-center object-cover"
                 src="https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725095849/company_xhtqyg.jpg"
                 alt=""
@@ -402,7 +403,7 @@ function Home_page() {
       >
         <ContainerHead head={"Our Rewards Program"}>
           <div className=" relative w-full h-96">
-            <img
+            <img loading='lazy'
               className=" w-full h-full object-bottom object-cover"
               src="https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725096580/rew_raavio.jpg"
               alt=""
