@@ -10,7 +10,6 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home_page />} />
         <Route path="/gurgaon_hotels" element={<Hotels_page />} />
-
       </Route>
     </Routes>
   );
