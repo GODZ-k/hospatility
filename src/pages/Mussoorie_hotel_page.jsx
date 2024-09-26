@@ -6,71 +6,58 @@ import HotelCard from "@/components/HotelCard";
 import React from "react";
 
 
-function Hotels_page() {
+function Mussoorie_hotels_page() {
   return (
     <div>
       <div className=" relative w-full h-[30rem]">
         <img
-          src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727257497/goa_2_11zon_xnsm5v.webp"
+          src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727259964/Mussoorie-Tourism_nbscyi.jpg"
           className=" object-center object-cover w-full h-full"
           alt=""
         />
         <div className=" absolute top-0 right-0 w-full h-full bg-[#0000003d]">
           <div className=" flex justify-center items-center w-full h-full ">
             <div className=" text-white text-4xl tracking-widest font-sans font-semibold">
-              Welcome to Goa
+              Welcome to Mussoorie
             </div>
           </div>
         </div>
       </div>
       {/* destination  */}
       <Container>
-        <BreadCrumb location={"Goa"} location_url={"/gurgaon_hotels"} />
+        <BreadCrumb location={"Mussoorie"} location_url={"/gurgaon_hotels"} />
       </Container>
 
       {/* hotels in location */}
 
       <Container id="hotels">
-        <ContainerHead className={" sm:gap-16 "} head={"Hotels in Goa"}>
+        <ContainerHead className={" sm:gap-16 "} head={"Hotels in Mussoorie"}>
           <div className=" flex justify-center w-full">
             <div className=" w-full  flex flex-wrap justify-evenly gap-4 ">
               <HotelCard
-                image={"https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727257224/muskan-sol-villa-no-2-nerul-goa-tvyh7wak86_wa8kuk.avif"}
-                reviews={61}
-                hotel={"The Baris Nerul   Villa Goa"}
+                image={"https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727259614/barish_evqxon.webp"}
+                reviews={6}
+                hotel={"Barish Hotel & Resort"}
                 rating={4}
                 explore={"/"}
-                plane={33}
-                metro={21}
+                plane={49}
+                metro={30}
                 book={"/"}
                 address={
-                  " Muskan sol Villa No.2 Nerul reis margos Rd. Goa  Nerul , Goa   403114"
+                  "Oakdene estate Barlowganj Mussoorie 248122"
                 }
               />
               <HotelCard
-                image={"https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727258316/weddingvenues-lavender-villa-eventspace-10_15_434826-167531960558898_qzv9zw.jpg"}
-                reviews={149}
-                hotel={"Lavender Villa Goa"}
+                image={"https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727260585/open-terrace_rbljgh.jpg"}
+                reviews={55}
+                hotel={"Hotel drive Inn Mussoorie"}
                 rating={4}
-                explore={"/"}
-                plane={31}
-                metro={21}
+                explore={"/"} 
+                plane={52}
+                metro={34}
                 book={"/"}
                 address={
-                  " H.no. 1/9A/3 Gauravaddo Calangute ,Goa 403516"
-                }
-              />
-              <HotelCard
-                image={"https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727262281/baga_incjaf.webp"}
-                reviews={108}
-                hotel={"Baga Villa (The Heriage Beach Villa)"}
-                rating={4}
-                explore={"/"}
-                plane={30}
-                metro={41}
-                book={"/"}
-                address={
-                  " House no. 1314 Calanguate bega Road UMTA vaddo Calangute Bardez Goa near sea shore Resort Calangute Goa 403516"
+                  "Near Picture Palace Mall Road Mussoorie Uttarakhand - 248179"
                 }
               />
               {/* <HotelCard
@@ -85,7 +72,6 @@ function Hotels_page() {
                 address={
                   "  Plot No. 6, Community Center, Mayur Vihar Phase III, Delhi - 110096, India"
                 }
-              
               /> */}
             </div>
           </div>
@@ -98,7 +84,7 @@ function Hotels_page() {
           <div className=" w-full h-[30rem] md:h-[40rem]">
             <iframe
               className=" w-full h-full"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15378.422396424368!2d73.7884818!3d15.5056326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc1a96444fe23%3A0xdaf513abce2761e7!2sMuskan%20Sol%20Villa%20No.%202!5e0!3m2!1sen!2sin!4v1727255476224!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3439.325125551555!2d78.07917007430576!3d30.45522789899351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d1bf90bc601d%3A0x575b85040be017c1!2sHotel%20Drive%20Inn!5e0!3m2!1sen!2sin!4v1727260726963!5m2!1sen!2sin"
               frameborder="0"
             ></iframe>
            
@@ -109,13 +95,12 @@ function Hotels_page() {
       {/* detail */}
       <Container>
         <div className=" w-full text-center text-gray-600 leading-normal">
-        Whoever has been in Goa may say that he has seen the choicest rarities of India, for it is the 
-        most famous and celebrated city, on account of its commercial intercourse with people of all nationalities
-         of the East who bring there the products of their respective countries, articles of merchandize, necessaries 
-         of life and other commodities in great abundance because every year more than a thousand ships touch there laden
-          with cargo’ ‘as for the multitude of people, it is a marvel to see the number which come and go every day by sea
-           and land on business of every kind.One would say that a fair was being held every day for the sale of all sorts of merchandise.’
-        </div>
+        Mussoorie, also known as Queen of the Hills, is among the most popular hill 
+        stations of the country. A Britisher, Captain Frederick Young, accompanied by an 
+        official named FJ Shore, had climbed up the hill from the Doon valley in 1827 and found this ridge 
+        offering great views and a salubrious climate. This visit laid the foundation for this grand hill station. 
+
+</div>
       </Container>
 
       {/* FAQ */}
@@ -139,4 +124,4 @@ function Hotels_page() {
   );
 }
 
-export default Hotels_page;
+export default Mussoorie_hotels_page;

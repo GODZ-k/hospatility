@@ -37,7 +37,7 @@ function HotelCard({image , hotel , address , plane , metro , rating , reviews ,
                        )}
                        {metro && (
                          <div className=" flex items-center gap-2">
-                         <i class="fa-solid fa-train"></i> <div>15 km</div>
+                         <i class="fa-solid fa-train"></i> <div>{metro} km</div>
                          </div>
                        )}
                     </div>
