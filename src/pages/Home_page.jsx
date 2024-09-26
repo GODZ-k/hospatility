@@ -185,7 +185,7 @@ function Home_page() {
                 image={
                   "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084571/lavender1_kgi0wu.jpg"
                 }
-                to="/gurgaon_hotels"
+                to="/goa_hotels"
                 place={"Goa"}
                 hotels={3}
               />
@@ -194,6 +194,7 @@ function Home_page() {
                   "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084866/muss_iojr6d.jpg"
                 }
                 place={"Mussoorie"}
+                to="/mussoorie_hotels"
                 hotels={3}
               />
               <DestinationCard
@@ -201,50 +202,16 @@ function Home_page() {
                   "https://res.cloudinary.com/dhb7hrvvn/image/upload/v1725084345/be3_o0gd1m.jpg"
                 }
                 place={"Haridwar"}
+                to="/haridwar_hotels"
                 hotels={2}
               />
-              {/* <DestinationCard
-                image={
-                  "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
-                }
-                place={"Mumbai"}
-                hotels={5}
-              />
-              <DestinationCard
-                image={
-                  "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
-                }
-                place={"Mumbai"}
-                hotels={5}
-              />
-              <DestinationCard
-                image={
-                  "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
-                }
-                place={"Mumbai"}
-                hotels={5}
-              />
-              <DestinationCard
-                image={
-                  "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
-                }
-                place={"Mumbai"}
-                hotels={5}
-              />
-              <DestinationCard
-                image={
-                  "https://www.lemontreehotels.com/assets/front/images/travelForMumbai.jpg"
-                }
-                place={"Mumbai"}
-                hotels={5}
-              /> */}
             </div>
           </div>
-          <button className=" w-full flex justify-center items-center">
+          {/* <button className=" w-full flex justify-center items-center">
             <div className=" px-7 py-2.5 rounded-lg text-white bg-black ">
               Explore more destination
             </div>
-          </button>
+          </button> */}
         </ContainerHead>
       </Container>
 
