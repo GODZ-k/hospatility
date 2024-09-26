@@ -24,7 +24,7 @@ function Header() {
                 <i className="fa-solid fa-xmark"></i>
               </button>
             </div>
-            <ul className=" pt-10 md:pt-0 flex md:flex-row flex-col md:bg-transparent gap-14 md:gap-8 lg:gap-10 md:text-white text-black md:items-center justify-between">
+            <ul className=" pt-10 md:pt-0 flex md:flex-row flex-col md:bg-transparent gap-14 md:gap-8 lg:gap-10  text-gray-800 md:items-center justify-between">
                 <Link smooth={true} duration={500} to="home">
                 <li>Home</li></Link>
              <Link smooth={true} duration={500} to="hotels">

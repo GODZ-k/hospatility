@@ -53,7 +53,7 @@ function HotelCard({image , hotel , address , plane , metro , rating , reviews ,
                     </div>
                 </div>
                 <div className=" flex gap-3 items-center">
-                   <Link to={`/${explore}`}> <Button>Explore</Button></Link>
+                   <Link to={explore}> <Button>Explore</Button></Link>
                    <Link to={book}> <Button className=" bg-transparent border text-black font-semibold border-black">Book</Button></Link>
                 </div>
               </CardContent>
