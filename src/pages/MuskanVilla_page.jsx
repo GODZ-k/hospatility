@@ -131,7 +131,64 @@ function MuskanVilla_page() {
      <Facilities key={index} image={hotel.image} title={hotel.title}/>
         ))}
       </div>
+        
+     {/* Restaurants */}
+     <div className="">
+      <div className=" flex text-4xl font-semibold mb-9">
+      <h1>Resturants</h1>
+      </div>
 
+      <div className=" flex flex-col md:flex-row gap-8 md:gap-16 w-full">
+        <div className="w-full rounded-md overflow-hidden   bg-blue-200">
+          <img src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727326603/lovepik-hotel_gkzfvo.jpg" alt="" className=" w-full  h-full"/>
+        </div>
+        <div className="flex flex-col gap-9 w-full">
+          <div className=" flex flex-col gap-3">
+            <h1 className=" text-3xl text-gray-800 font-semibold">Republic of Noodles</h1>
+            <p className=" text-sm sm:text-base">There are multiple matches for Musa Villa, including a 
+              luxury villa on Lake Como, a property in Gili Air, Indonesia, and a luxury villa in Marrakech: 
+             Villa Musa, Lake Como
+             A luxury villa on the west shore of Lake Como, Italy, this villa has six 
+             bedrooms and can accommodate up to 12 people. It has a swimming pool, jacuzzi, gym equipment, and a fully 
+             equipped kitchen. The villa also offers a spa, cooking classes, and bicycle rentals. </p>
+          </div>
+
+          <div className=" flex flex-col gap-3 ">
+          <div className=" flex gap-4 ">
+            <div className="text-2xl w-5">
+            <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div className="">
+              <h1 className=" items-center text-lg font-serif"><span className="font-bold">Cuisine Type: </span>Pan Asian</h1>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="text-2xl w-5">
+            <i class="fa-solid fa-file-lines"></i>
+            </div>
+            <div className="">
+              <h1  className="items-center text-lg font-serif"><span className="font-bold">Menu: </span>Carte</h1>
+            </div>
+          </div>
+
+          <div className="flex gap-4">
+            <div className="text-2xl w-5">
+              <i class="fa-regular fa-clock"></i>
+              </div>
+            <div className="">
+              <h1 className=" items-center text-lg font-serif"><span className="font-bold">Timing: </span> 5:00 PM To 11:00 PM</h1>
+            </div>
+          </div>
+          </div>
+          <div className=" ">
+            <button className=" underline text-blue-950 text-lg">Explore</button>
+          </div>
+        </div>
+      </div>
+     </div>
+
+       
        {/* offers and promotions */}
       <Container id="offers">
         <ContainerHead head={"Offers & Promotions"}>
