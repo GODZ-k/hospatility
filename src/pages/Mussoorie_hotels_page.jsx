@@ -39,7 +39,7 @@ function Mussoorie_hotels_page() {
                 reviews={6}
                 hotel={"Barish Hotel & Resort"}
                 rating={4}
-                explore={"/"}
+                explore={"BarishHotel-resort"}
                 plane={49}
                 metro={30}
                 book={"/"}
@@ -52,7 +52,7 @@ function Mussoorie_hotels_page() {
                 reviews={55}
                 hotel={"Hotel drive Inn Mussoorie"}
                 rating={4}
-                explore={"/"} 
+                explore={"HotelDrive-Inn"} 
                 plane={52}
                 metro={34}
                 book={"/"}

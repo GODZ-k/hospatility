@@ -1,3 +1,4 @@
+
 import BreadCrumb from "@/components/BreadCrumb";
 import Container from "@/components/Container";
 import ContainerHead from "@/components/ContainerHead";
@@ -9,8 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Rating } from "@mui/material";
 import { Link } from "react-router-dom";
 
-function MuskanVilla_page() {
-
+function HotelDrive_Inn_page() {
     const facilities = [
         {
             image:"https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727413899/garden-_n7x3d0.webp",
@@ -44,37 +44,37 @@ function MuskanVilla_page() {
     ]
     const images = [
         {
-           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727412742/front_xnilak.jpg",
+           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727671816/fe8c657e_ntzriy.webp",
 
            caption: "After Rain (Jeshu John - designerspics.com)",
         },
         {
-           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727412741/nerul_efbqcd.jpg",
+           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727671816/hotel-drive-inn_1_ygntxd.jpg",
 
            alt: "Boats (Jeshu John - designerspics.com)",
         },
         {
-           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727412741/pool_ekxnmw.jpg",
+           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727671816/hotel-drive-inn_popc1w.jpg",
 
         },
         {
-           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727412741/piece_ykro4y.webp",
+           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727671816/7_zcwppo.jpg",
 
         },
         {
-          src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727413097/seating_wlgstg.jpg",
+          src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727671815/70858147e35f4de332a48a141102039f_alcrui.jpg",
 
        },
        {
-        src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727413098/night_lsyupd.jpg",
+        src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727436598/79989fec9d9211eea0210a58a9feac02_rxskfm.avif",
 
      },
+    
      ];
-     
   return (
     <Container className=" pt-12">
       {/* <Container> */}
-      <BreadCrumb location={"Goa"} location_url={"/goa_hotels"} />
+      <BreadCrumb location={"Mussoorie"} location_url={"/mussoorie_hotels"} />
       {/* </Container> */}
 
       <div className=" flex-col sm:flex-row mt-20 gap-10 flex justify-between sm:items-center">
@@ -82,17 +82,16 @@ function MuskanVilla_page() {
           <div className="w-32">
             <img
               src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727765053/logo_osbwiu.png"
-              // srcSet="logo.png"
               className=" h-full w-full object-center object-cover"
               alt=""
             />
           </div>
           <div>
             <div className=" text-xl font-semibold sm:text-2xl text-gray-800">
-            The Baris Nerul   Villa Goa
+            Hotel Drive Inn Mussoorie
             </div>
             <div className=" text-sm sm:text-base">
-            Muskan sol Villa No.2 Nerul reis margos Rd. Goa  Nerul , Goa   403114
+            Near Picture Palace Mall Road Mussoerrie uttrakhnd - 248179
             </div>
           </div>
         </div>
@@ -106,7 +105,7 @@ function MuskanVilla_page() {
               readOnly
             />
           </div>
-          <div className=" text-gray-600">61 Reviews</div>
+          <div className=" text-gray-600">55 Reviews</div>
         </div>
       </div>
       
@@ -117,10 +116,11 @@ function MuskanVilla_page() {
 
       <div className="pt-10 pb-20 flex flex-col gap-6 items-center">
         <div className=" sm:text-base text-sm text-gray-700 text-md text-center">
-        Muskaan Villa is the most wonderful destination to party and chill out in Goa. It is a 
-        luxurious 4BHK residence in Goa with an open field and a serene hill view.  The place offers 
-        a private pool, a spacious lawn, and beautiful gazebos.  All these things only add to the overall
-         charm of the villa.
+      A modest, family-friendly property with beautiful Himalayan views, the Drive Inn is 
+      centrally located on bustling Mall Road in Mussoorie, the "Queen of Hills." The spacious
+       standard guest rooms include a flat-screen television, Wi-Fi access, and an en-suite bathroom
+        with complimentary toiletries. Superior rooms overlook the mountains. Air-conditioning and mini
+         refrigerators are available upgrades. The Drive Inn welcomes travellers with a 24-hour front desk and plenty of free parking. 
         </div>
         {/* <div>
           <Button>Click here for more detail</Button>
@@ -141,7 +141,7 @@ function MuskanVilla_page() {
             <div className=" grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
               <CouponCard
                 image={
-                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727415006/bedroom_pc9jag.avif"
+                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727671816/IMG_6004_original_XYWNNW_psoi88.jpg"
                 }
                 // to={"/"}
                 content={"There are there living areas in the villa. All the living rooms have air conditioners. It could accommodate up to 6 to 10 people. "}
@@ -149,7 +149,7 @@ function MuskanVilla_page() {
               />
               <CouponCard
                 image={
-                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727415006/privatepool_zpc38d.jpg"
+                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727674512/noon_bm8llv.jpg"
                 }
                 // to={"/"}
                 content={" Your dining room is one of the most special spaces in your home to make memories with the people you love."}
@@ -157,7 +157,7 @@ function MuskanVilla_page() {
               />
               <CouponCard
                 image={
-                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727415005/bathroom_j8xpkf.jpg"
+                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727671815/20180418-162742-largejpg_hxmh1r.jpg"
                 }
                 // to={"/"}
                 content={" Bathroom facilities can refer to a room with a toilet, sink, and sometimes a shower or bathtub, or to the equipment, services, or buildings that provide these facilities"}
@@ -165,7 +165,7 @@ function MuskanVilla_page() {
               />
                <CouponCard
                 image={
-                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727415006/seating_area_kkttat.jpg"
+                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727674533/224e226a61f5c9fa_r47zqd.jpg"
                 }
                 // to={"/"}
                 content={"A bedroom seating area will provide additional space to easily unwind with a book or send off a few emails from the comfort of your bedroom."}
@@ -173,13 +173,13 @@ function MuskanVilla_page() {
               />
             </div>
           </div>
-          <div className=" w-full flex justify-center">
-      {/* <Link>
+          {/* <div className=" w-full flex justify-center">
+      <Link>
       <Button className=" w-fit bg-gray-800 text-white " sx={{ color:"white", background:"black", textDecoration:"none" , textTransform:"none"}}>
             View more
           </Button>
-          </Link> */}
-          </div>
+          </Link>
+          </div> */}
         </ContainerHead>
 </div>
 
@@ -192,7 +192,7 @@ function MuskanVilla_page() {
 
 <div className=" flex flex-col md:flex-row gap-8 md:gap-16 w-full">
 <div className="w-full rounded-md overflow-hidden   bg-blue-200">
-  <img src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727326603/lovepik-hotel_gkzfvo.jpg" alt="" className=" w-full  h-full"/>
+  <img src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727671816/hotel-drive-inn-picture-palace-mussoorie-hotels-1l9xk3grzj_majdxd.avif" alt="" className=" w-full  h-full"/>
 </div>
 <div className="flex flex-col gap-9 w-full">
   <div className=" flex flex-col gap-3">
@@ -349,4 +349,5 @@ function MuskanVilla_page() {
   );
 }
 
-export default MuskanVilla_page;
+
+export default HotelDrive_Inn_page

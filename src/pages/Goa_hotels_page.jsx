@@ -25,7 +25,7 @@ function Hotels_page() {
       </div>
       {/* destination  */}
       <Container>
-        <BreadCrumb location={"Goa"} location_url={"/gurgaon_hotels"} />
+        <BreadCrumb location={"Goa"} location_url={"/goa_hotels"} />
       </Container>
 
       {/* hotels in location */}
@@ -52,7 +52,7 @@ function Hotels_page() {
                 reviews={149}
                 hotel={"Lavender Villa Goa"}
                 rating={4}
-                explore={"goa_hotels/muskan-villa"}
+                explore={"Levender-villa"}
                 plane={31}
                 metro={21}
                 book={"/"}
@@ -65,7 +65,7 @@ function Hotels_page() {
                 reviews={108}
                 hotel={"Baga Villa (The Heriage Beach Villa)"}
                 rating={4}
-                explore={"/muskan-villa"}
+                explore={"Baga-Villa"}
                 plane={30}
                 metro={41}
                 book={"/"}

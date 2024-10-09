@@ -1,3 +1,4 @@
+
 import BreadCrumb from "@/components/BreadCrumb";
 import Container from "@/components/Container";
 import ContainerHead from "@/components/ContainerHead";
@@ -9,8 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Rating } from "@mui/material";
 import { Link } from "react-router-dom";
 
-function MuskanVilla_page() {
-
+function Levendervilla_page() {
     const facilities = [
         {
             image:"https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727413899/garden-_n7x3d0.webp",
@@ -44,33 +44,32 @@ function MuskanVilla_page() {
     ]
     const images = [
         {
-           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727412742/front_xnilak.jpg",
+           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727428237/calangute_ensiue.jpg",
 
            caption: "After Rain (Jeshu John - designerspics.com)",
         },
         {
-           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727412741/nerul_efbqcd.jpg",
+           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727428235/pic-calangute-1_d5xq8w.jpg",
 
            alt: "Boats (Jeshu John - designerspics.com)",
         },
         {
-           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727412741/pool_ekxnmw.jpg",
+           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727428236/wed_dro4eh.jpg",
 
         },
         {
-           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727412741/piece_ykro4y.webp",
+           src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727428236/wedding_ajkn9b.jpg",
 
         },
         {
-          src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727413097/seating_wlgstg.jpg",
+          src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727428235/167568_wjysnu.jpg",
 
        },
        {
-        src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727413098/night_lsyupd.jpg",
+        src: "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727428235/w_locfks.jpg",
 
      },
      ];
-     
   return (
     <Container className=" pt-12">
       {/* <Container> */}
@@ -82,17 +81,16 @@ function MuskanVilla_page() {
           <div className="w-32">
             <img
               src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727765053/logo_osbwiu.png"
-              // srcSet="logo.png"
               className=" h-full w-full object-center object-cover"
               alt=""
             />
           </div>
           <div>
             <div className=" text-xl font-semibold sm:text-2xl text-gray-800">
-            The Baris Nerul   Villa Goa
+            Lavender Villa Goa
             </div>
             <div className=" text-sm sm:text-base">
-            Muskan sol Villa No.2 Nerul reis margos Rd. Goa  Nerul , Goa   403114
+            H.no. 1/9A/3 Gauravaddo Calangute ,Goa 403516
             </div>
           </div>
         </div>
@@ -106,7 +104,7 @@ function MuskanVilla_page() {
               readOnly
             />
           </div>
-          <div className=" text-gray-600">61 Reviews</div>
+          <div className=" text-gray-600">149 Reviews</div>
         </div>
       </div>
       
@@ -117,10 +115,12 @@ function MuskanVilla_page() {
 
       <div className="pt-10 pb-20 flex flex-col gap-6 items-center">
         <div className=" sm:text-base text-sm text-gray-700 text-md text-center">
-        Muskaan Villa is the most wonderful destination to party and chill out in Goa. It is a 
-        luxurious 4BHK residence in Goa with an open field and a serene hill view.  The place offers 
-        a private pool, a spacious lawn, and beautiful gazebos.  All these things only add to the overall
-         charm of the villa.
+        There's even more than sea and sun awaiting you at Lavender Villa. This uber-luxury 
+        vacation rental is just a short drive from the beach, famous restaurants & clubs. Your 
+        stay includes daily breakfast made by our in-house chef. The property has total 7 bedrooms
+         out of which 5 are suite-style, Spanish Colonial architecture & 2 are built the Portuguese style. 
+         The property is the biggest in Goa spread across an area of 5 Acres, making it the perfect villa for a 
+         family & friends on holiday together.
         </div>
         {/* <div>
           <Button>Click here for more detail</Button>
@@ -141,7 +141,7 @@ function MuskanVilla_page() {
             <div className=" grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
               <CouponCard
                 image={
-                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727415006/bedroom_pc9jag.avif"
+                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727430005/lavender_rpriwr.jpg"
                 }
                 // to={"/"}
                 content={"There are there living areas in the villa. All the living rooms have air conditioners. It could accommodate up to 6 to 10 people. "}
@@ -149,7 +149,7 @@ function MuskanVilla_page() {
               />
               <CouponCard
                 image={
-                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727415006/privatepool_zpc38d.jpg"
+                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727429624/dinning_e0zrrj.jpg"
                 }
                 // to={"/"}
                 content={" Your dining room is one of the most special spaces in your home to make memories with the people you love."}
@@ -157,7 +157,7 @@ function MuskanVilla_page() {
               />
               <CouponCard
                 image={
-                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727415005/bathroom_j8xpkf.jpg"
+                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727430124/bath_jij5eo.jpg"
                 }
                 // to={"/"}
                 content={" Bathroom facilities can refer to a room with a toilet, sink, and sometimes a shower or bathtub, or to the equipment, services, or buildings that provide these facilities"}
@@ -165,7 +165,7 @@ function MuskanVilla_page() {
               />
                <CouponCard
                 image={
-                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727415006/seating_area_kkttat.jpg"
+                  "https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727429448/sitting_gaxjra.jpg"
                 }
                 // to={"/"}
                 content={"A bedroom seating area will provide additional space to easily unwind with a book or send off a few emails from the comfort of your bedroom."}
@@ -192,7 +192,7 @@ function MuskanVilla_page() {
 
 <div className=" flex flex-col md:flex-row gap-8 md:gap-16 w-full">
 <div className="w-full rounded-md overflow-hidden   bg-blue-200">
-  <img src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727326603/lovepik-hotel_gkzfvo.jpg" alt="" className=" w-full  h-full"/>
+  <img src="https://res.cloudinary.com/dmrqjhzx5/image/upload/v1727430534/nt_ta6nny.avif" alt="" className=" w-full  h-full"/>
 </div>
 <div className="flex flex-col gap-9 w-full">
   <div className=" flex flex-col gap-3">
@@ -349,4 +349,5 @@ function MuskanVilla_page() {
   );
 }
 
-export default MuskanVilla_page;
+
+export default Levendervilla_page

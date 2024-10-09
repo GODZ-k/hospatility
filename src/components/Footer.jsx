@@ -1,116 +1,25 @@
 import React, { useState } from "react";
 import Container from "./Container";
 import { Link } from "react-router-dom";
+import path from "path";
 
 const hotelLocation = [
   {
-    name:"BARIS Hotel in Mussoorie"
+    name:"Goa Hotels " , path:"/goa_hotels"
   },
   {
-    name:"Hotel in Haridwar"
+    name:"Mussoorie Hotels", path:"/mussoorie_hotels"
   },
   {
-    name:"Lavender Villa in Goa"
-  },
-  {
-    name:"Hotel Drive Inn Mussoorie"
+    name:"Haridwar Hotels"
   },
   // {
-  //   name:"Hotel in Agra"
+  //   name:"Hotel Drive Inn Mussoorie"
   // },
   // {
   //   name:"Hotel in Agra"
   // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
-  // {
-  //   name:"Hotel in Agra"
-  // },
+
 ]
 function Footer() {
   const [isOpen , setIsOpen] = useState(false)
@@ -127,9 +36,14 @@ function Footer() {
            isOpen && (
             <div className="w-full my-8">
             <ul className=" flex  flex-wrap gap-5">
-             {hotelLocation?.map((hotel)=>(
+            {hotelLocation.map((hotel, index) => (
+        <div key={index}>
+          <Link to={hotel.path}>{hotel.name}</Link>
+        </div>
+      ))}
+             {/* {hotelLocation?.map((hotel)=>(
                <li className=" text-gray-400">{hotel.name}</li>
-             ))}
+             ))} */}
             </ul>
           </div>
            )

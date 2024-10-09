@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from 'react-scroll';
+import { Link as RouterLink } from "react-router-dom";
 
 function Header() {
   const [navBar, setNavbar] = useState(false);
@@ -8,23 +9,24 @@ function Header() {
     <div className=" z-50 w-full py-2 px-4 sm:px-8 fixed bg-transparent backdrop-blur-md">
       <div className=" flex justify-between gap-8 items-center relative">
         <div className=" w-28 flex justify-center items-center">
-          <img loading='lazy'
-            className=" h-full w-full object-center object-cover"
+          <RouterLink to={"/"}>
+          <img className=" h-full w-full object-center object-cover"
             src="logo.png"
             alt=""
           />
+          </RouterLink>
         </div>
           <div
             className={`${
               navBar ? "right-0" : "-right-96"
-            } w-80 md:w-fit md:static fixed h-screen md:h-auto top-0 transition-all ease-in-out lg:text-base text-base md:text-sm bg-white md:bg-transparent px-10 pt-20 md:p-0 `}
+            } w-80 md:w-fit md:static fixed h-screen md:h-auto top-0 transition-all ease-in-out lg:text-base text-base md:text-sm bg-white md:bg-transparent px-10 pt-20 md:p-0`}
           >
             <div className=" absolute md:hidden visible top-8 left-10">
               <button className=" text-lg" onClick={() => setNavbar(false)}>
                 <i className="fa-solid fa-xmark"></i>
               </button>
             </div>
-            <ul className=" pt-10 md:pt-0 flex md:flex-row flex-col md:bg-transparent gap-14 md:gap-8 lg:gap-10  text-gray-800 md:items-center justify-between">
+            <ul className=" pt-6 md:pt-0 flex md:flex-row flex-col md:bg-transparent gap-10 md:gap-8 lg:gap-10  text-gray-800 md:items-center justify-between">
                 <Link smooth={true} duration={500} to="home">
                 <li>Home</li></Link>
              <Link smooth={true} duration={500} to="hotels">
